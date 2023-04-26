@@ -1,0 +1,56 @@
+header{
+    height: 75px;
+    border-bottom: 3px black solid;
+    padding: 5px;
+}
+
+.logo{
+    height: 75px;
+    transform: rotateY(30deg) rotateX(-30deg);
+    float: left;
+}
+
+.name{
+    float: right;
+}
+
+.introCard{
+    width: 550px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    background-image: linear-gradient(to bottom, lightgray 70%, gray);
+    border-radius: 10px;
+    height: 325px;
+    scrollbar-width: 0px;
+}
+
+.gridContainer{
+    width: 975px;
+    margin: auto;
+    margin-top: 45px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+    background-color: rgb(241, 241, 241);
+}
+
+.link{
+    background-color: gray;
+    border: 3px black solid;
+    width: 228.75px;
+    height: 228.75px;
+}
+
+.appName{
+    color: white;
+    text-align: center;
+}
+
+.preview{
+    margin: auto;
+    margin-left: 39.374px;
+    width: 150px;
+    height: 150px;
+}
